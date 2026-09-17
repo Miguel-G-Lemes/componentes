@@ -6,6 +6,6 @@ function usuarioController(){
     echo "8. Controller recebeu os dados do Service.<br>";
     echo "Usuários encontrados:<br>";
     foreach ($usuarios as $usuario) {
-            echo "- " . $usuario . "<br>";
+        echo "- " . $usuario . "<br>";
     }
 }
